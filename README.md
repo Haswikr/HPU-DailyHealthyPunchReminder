@@ -1,0 +1,2 @@
+# HPU-DailyHealthyPunchReminder
+一给可以在群里自动催没有每日健康上报的同学及时打卡的脚本
