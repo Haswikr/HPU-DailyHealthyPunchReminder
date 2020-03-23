@@ -14,16 +14,6 @@ import os
 import random
 host = "http://127.0.0.1:801/"
 
-def test():
-    host = "http://127.0.0.1:801/"
-    url = "send_msg?"
-    #para = {'group_id':1059083065,'message':'你好 [CQ:at,qq=383661096]'}    
-    para = {'user_id':383661096,'message':'你好 [CQ:at,qq=383661096]'}
-      
-    para = parse.urlencode(para) 
-    response = requests.get(host + url + para) 
-    print(json.loads(response.text))
-
 
 def sendUnsignedNotice(classContainer,showPhone):
     success, groupId = queryGroupId("班长群")
