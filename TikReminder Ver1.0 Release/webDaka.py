@@ -24,9 +24,9 @@ def getCookies():
     driver.get("http://218.196.246.50/yqtj/mainpage ")
 
     element_keyword = driver.find_element_by_id('username')
-    element_keyword.send_keys('10460060135')
+    element_keyword.send_keys('账号')
     element_keyword = driver.find_element_by_id('password')
-    element_keyword.send_keys('139049')
+    element_keyword.send_keys('密码')
     
     botton = driver.find_element_by_id("login-submit")
     botton.click()
